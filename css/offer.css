@@ -1,0 +1,472 @@
+header, footer, article, section, hgroup, nav, figure, aside {
+  display: block;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* apply a natural box layout model to all elements */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* html {
+  font-size: 100%;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+body {
+  font-family: Arial, Helvetica, Georgia, Arial, sans-serif;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  margin: 0;
+  color: #ffe599;
+  background: black url('../images/offer_hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 320px;
+}
+
+img {
+  border-style: none;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: underline;
+  color: #137500;
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  background-color: transparent;
+}
+
+input, textarea, select {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+form, fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+}
+
+.wrapper-holder {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  width: 60.64%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  overflow: hidden;
+  position: relative;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo a {
+  display: block;
+  height: 100%;
+}
+
+.logo img {
+  margin-left: 50%;
+  margin-top: 1%;
+  max-width: 200px !important;
+  max-height: 200px !important;
+}
+
+.offer {
+  font-family: "Lobster", cursive;
+  color: #ff9a00;
+  font-size: 2.1875em;
+  line-height: 1.37143em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.header-holder .holder {
+  overflow: hidden;
+  margin: 0 0 31px;
+}
+
+.search-form {
+  float: right;
+  width: 175px;
+  height: 25px;
+  overflow: hidden;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.twocolumns {
+  width: 55%;
+  padding: 1em;
+  margin-left: 30%;
+  background: transparent;
+  line-height: 3em;
+}
+
+.twocolumns:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.content {
+  float: none;
+  width: 100%;
+}
+
+.content-holder {
+  padding: 0;
+}
+
+.content p {
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 1.2em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+  line-height: 1.5em;
+}
+
+.content .take-action {
+  color: #ffe599;
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+
+.form-block form {
+  padding: 18px 20px 19px 18px;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.form-block .row {
+  padding: 0 0 19px;
+  margin: 0 -2px 0 0;
+}
+
+.form-block .row:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.form-block .text-holder {
+  float: left;
+  width: 100%;
+}
+
+.form-block .text-holder:first-child {
+  margin: 0;
+  padding: 0 0 19px;
+}
+
+.form-block .text {
+  width: 100%;
+  display: block;
+}
+
+.form-block input[type="text"],
+.form-block input[type="email"] {
+  /* This block sets the dimensions */
+  height: 35px;
+  width: 100%;
+  padding: 5px 12px;
+  margin: 0;
+  display: block;
+  /* This block sets the background*/
+  background: #714A00;
+  background: rgba(113, 74, 0, 0.8);
+  border: 1px solid #000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* This block adds the inner shadow */
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.75);
+  font: 12px/22px Arial, Tahoma, serif;
+  color: #ffe599;
+  filter: none !important;
+}
+
+::-webkit-input-placeholder {
+  color: #ffe599 !important;
+  font-style: italic !important;
+}
+
+:-moz-placeholder {
+  color: #ffe599 !important;
+  font-style: italic !important;
+}
+
+input:-moz-placeholder {
+  color: #ffe599 !important;
+  font-style: italic !important;
+}
+
+:-ms-input-placeholder {
+  color: #ffe599 !important;
+  font-style: italic !important;
+}
+
+.form-block .btn-holder {
+  width: 100%;
+}
+
+.form-block input[type="submit"] {
+  width: 75.64%;
+  margin: 0 auto;
+  display: block;
+  height: 44px;
+  color: #fbcd54;
+  font-family: Georgia, Helvetica, sans-serif;
+  cursor: pointer;
+  font-size: 1.8125em;
+  line-height: 1.65517em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 2px black;
+  border: 2px solid #FBB500;
+  background: #137700;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #137700), color-stop(80%, #155900));
+  background-image: -webkit-linear-gradient(top, #137700 50%, #155900 80%);
+  background-image: -moz-linear-gradient(top, #137700 50%, #155900 80%);
+  background-image: -o-linear-gradient(top, #137700 50%, #155900 80%);
+  background-image: linear-gradient(top, #137700 50%, #155900 80%);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.form-block input[type="submit"]:hover {
+  cursor: pointer;
+  background: #155900;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #155900), color-stop(80%, #137700));
+  background-image: -webkit-linear-gradient(top, #155900 50%, #137700 80%);
+  background-image: -moz-linear-gradient(top, #155900 50%, #137700 80%);
+  background-image: -o-linear-gradient(top, #155900 50%, #137700 80%);
+  background-image: linear-gradient(top, #155900 50%, #137700 80%);
+}
+
+footer {
+  overflow: hidden;
+  font-size: 0.75em;
+  line-height: 2em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  color: #ffe599;
+  margin: 140px 0 0 32%;
+  width: 45%;
+}
+
+.copy {
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+address {
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+@media (max-width: 1700px) {
+  .logo img {
+    margin-left: 53%;
+  }
+
+  .twocolumns {
+    width: 70%;
+  }
+
+  footer {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 1280px) {
+  .logo img {
+    margin-left: 50%;
+  }
+
+  .twocolumns {
+    width: 80%;
+    margin-left: 20%;
+  }
+
+  footer {
+    margin-left: 33%;
+  }
+
+  .form-block input[type="submit"] {
+    font-size: 1.375em;
+    line-height: 2.18182em;
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .logo img {
+    margin-left: 44%;
+  }
+
+  .twocolumns {
+    margin-left: 17%;
+  }
+
+  .content p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .content .take-action {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .sidebar {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .form-block input[type="submit"] {
+    font-size: 1.875em;
+    line-height: 1.6em;
+    width: 90%;
+  }
+
+  footer {
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 850px) {
+  .main {
+    width: 80%;
+  }
+
+  .logo img {
+    margin-left: 40%;
+    margin-top: 1.5em;
+  }
+
+  .twocolumns {
+    margin-left: 15%;
+    margin-top: -1em;
+  }
+
+  .content p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .content .take-action {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+
+  .logo img {
+    margin-left: 38%;
+  }
+
+  .twocolumns {
+    margin-left: 11%;
+    margin-top: -10px;
+    padding: 0;
+  }
+
+  .offer {
+    font-size: 1.5625em;
+    line-height: 1.92em;
+  }
+}
+@media (max-width: 480px) {
+  .logo img {
+    margin-left: 33%;
+  }
+}
+@media (max-width: 320px) {
+  .logo img {
+    margin-left: 20%;
+    margin-top: 1%;
+  }
+
+  .twocolumns {
+    width: 95%;
+    margin-left: 1%;
+  }
+
+  .offer {
+    font-size: 1.0625em;
+    line-height: 1.41176em;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-left: 1%;
+  }
+
+  .form-block input[type="submit"] {
+    width: 90%;
+  }
+
+  footer {
+    width: 100%;
+    margin-left: 0;
+  }
+}
